@@ -5,10 +5,18 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-InvoiceVault.UI.Blazor-8d78e9fa-bb37-421a-8a39-58ebb9a9583d</UserSecretsId>
+	<Title>InvoiceVault.UI</Title>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageId>InvoiceVault.UI</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Erp Systems Sp. z.o.o</Authors>
+	<Product>InvoiceVault</Product>
+	<IsPackable>true</IsPackable>
+	<GenerateAppxPackageOnBuild>true</GenerateAppxPackageOnBuild>
+	<PackageOutputPath>D:\Bogumił\InvoiceVault\InvoiceVault\Packages</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Identity" Version="1.10.3" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.19" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.19" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.19" />

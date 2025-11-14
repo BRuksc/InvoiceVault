@@ -1,11 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Title>InvoiceVault.WebAPI</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageId>InvoiceVault.WebAPI</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Erp Systems Sp. z.o.o</Authors>
+	<Product>InvoiceVault</Product>
+	<IsPackable>true</IsPackable>
+	<GenerateAppxPackageOnBuild>true</GenerateAppxPackageOnBuild>
+	<PackageOutputPath>D:\Bogumił\InvoiceVault\InvoiceVault\Packages</PackageOutputPath>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.11" />
   </ItemGroup>
